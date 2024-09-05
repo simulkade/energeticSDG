@@ -39,7 +39,7 @@ st.title("Sustainable development scores vs. Energy, GDP, and CO₂ emissions")
 # Dropdown boxes for selecting goals
 title_values = list(titles.values())
 selected_x = st.selectbox("X axis", title_values[0:3])
-selected_y = st.selectbox("Y axis", title_values[3:])
+selected_y = st.selectbox("Y axis", title_values[2:])
 
 # Map selected values back to their corresponding keys
 column_x = list(titles.keys())[list(titles.values()).index(selected_x)]
